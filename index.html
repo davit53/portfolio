@@ -402,6 +402,12 @@
     background: #1a1a18;
   }
 
+  a.project-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
   .project-card:first-child {
     grid-column: 1 / -1;
     aspect-ratio: 16/7;
@@ -676,7 +682,7 @@
   <p class="section-label">Selected Work</p>
   <h2 class="section-heading reveal">Projects I'm proud of.</h2>
   <div class="portfolio-grid">
-    <div class="project-card reveal">
+    <a href="https://github.com/davit53/calendar1" target="_blank" rel="noopener noreferrer" class="project-card reveal" aria-label="Smart Scheduler — view on GitHub">
       <div class="project-thumb pt-1">SMART SCHEDULER</div>
       <div class="project-overlay">
         <div class="project-info">
@@ -684,8 +690,8 @@
           <p>C++ · Qt · GoogleTest · Observer / Factory / Singleton patterns</p>
         </div>
       </div>
-    </div>
-    <div class="project-card reveal">
+    </a>
+    <a href="https://github.com/davit53/resumeScreener" target="_blank" rel="noopener noreferrer" class="project-card reveal" aria-label="AI Resume Screening Tool — view on GitHub">
       <div class="project-thumb pt-2">AI RESUME TOOL</div>
       <div class="project-overlay">
         <div class="project-info">
@@ -693,7 +699,7 @@
           <p>Python · SentenceTransformers · CrossEncoder · spaCy · NLP</p>
         </div>
       </div>
-    </div>
+    </a>
     <div class="project-card reveal">
       <div class="project-thumb pt-3">SHOELACE</div>
       <div class="project-overlay">
